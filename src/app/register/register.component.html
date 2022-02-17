@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="row d-flex align-items-center">
+    <div class="col-md-6" id="imgRegisterBG"></div>
+    <div class="col-md-6">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+          <h1 class="text-center">Cadastrar</h1>
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" id="nome" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="foto">Link da foto:</label>
+              <input type="text" name="foto" id="foto" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="senha">Senha:</label>
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="confirmarSenha">Confirmar Senha:</label>
+              <input
+                type="password"
+                name="confirmarSenha"
+                id="confirmarSenha"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="tipo">Tipo de Usúario:</label>
+              <select name="tipo" id="tipo" class="form-control">
+                <option value="">Selecione o Tipo de Usúario</option>
+                <option value="Administrador">Administrador</option>
+                <option value="Padrão">Padrão</option>
+              </select>
+            </div>
+            <div class="w-50 mx-auto d-flex justify-content-around mt-3">
+              <button type="submit" class="btn btn-outline-danger">
+                Cancelar
+              </button>
+              <button type="submit" class="btn btn-outline-success">
+                Cadastrar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
