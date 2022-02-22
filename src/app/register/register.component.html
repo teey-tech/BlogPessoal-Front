@@ -48,7 +48,6 @@
                 class="form-control"
                 placeholder="Exemplo: 12345668"
                 (input)="confirmSenha($event)"
-                [(ngModel)]="usuario.senha"
               />
             </div>
             <div class="form-group">
@@ -59,6 +58,7 @@
                 id="confirmarSenha"
                 class="form-control"
                 placeholder="Repita a senha"
+                [(ngModel)]="usuario.senha"
               />
             </div>
             <div class="form-group">
@@ -69,7 +69,7 @@
                 class="form-control"
                 (change)="tipoUsuario($event)"
               >
-                <option value="">Selecione o Tipo de Usúario</option>
+                <option>Selecione o Tipo de Usúario</option>
                 <option value="Administrador">Administrador</option>
                 <option value="Padrão">Padrão</option>
               </select>

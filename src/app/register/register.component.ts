@@ -26,7 +26,7 @@ export class RegisterComponent implements OnInit {
   }
 
   tipoUsuario(event: any){
-    this.tipoUsuario = event.target.value
+    this.tipoUser = event.target.value
   }
 
   cadastrar(){
