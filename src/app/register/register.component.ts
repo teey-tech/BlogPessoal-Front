@@ -39,7 +39,7 @@ export class RegisterComponent implements OnInit {
       this.auth.cadastro(this.usuario).subscribe((resp: UsuarioModel) => {
           this.usuario = resp
           this.router.navigate(['/login'])
-          alert('Usuário cadstrado com sucesso!')
+          alert('Usuário cadastrado com sucesso!')
       })
     }
   }

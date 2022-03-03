@@ -24,12 +24,13 @@ export class LoginComponent implements OnInit {
       next: (resp: UsuarioLoginDTO) => {
         this.usuarioLogin = resp
 
-        environment.foto = this.usuarioLogin.foto
-        environment.nome = this.usuarioLogin.nome
-        environment.id = this.usuarioLogin.id
-        environment.token = this.usuarioLogin.token
-        environment.tipo = this.usuarioLogin.tipo
-        this.router.navigate(['/home'])
+          environment.foto = this.usuarioLogin.foto
+          environment.nome = this.usuarioLogin.nome
+          environment.id = this.usuarioLogin.id
+          environment.token = this.usuarioLogin.token
+          environment.tipo = this.usuarioLogin.tipo
+          this.router.navigate(['/home'])
+
       },
       error: erro => {
         if(erro.status == 401){
