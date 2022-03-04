@@ -16,6 +16,9 @@ import { HomeComponent } from './home/home.component';
 import { ThemeComponent } from './theme/theme.component';
 import { ThemeDeleteComponent } from './delete/theme-delete/theme-delete.component';
 import { ThemeEditComponent } from './edit/theme-edit/theme-edit.component';
+import { PostEditComponent } from './edit/post-edit/post-edit.component';
+import { PostDeleteComponent } from './delete/post-delete/post-delete.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { ThemeEditComponent } from './edit/theme-edit/theme-edit.component';
     HomeComponent,
     ThemeComponent,
     ThemeDeleteComponent,
-    ThemeEditComponent
+    ThemeEditComponent,
+    PostEditComponent,
+    PostDeleteComponent,
+    UserEditComponent,
   ],
   imports: [
     BrowserModule,

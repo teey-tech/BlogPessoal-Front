@@ -11,7 +11,7 @@ import { AuthService } from '../service/auth.service';
 })
 export class RegisterComponent implements OnInit {
 
-  usuario: UsuarioModel = new UsuarioModel
+  usuario: UsuarioModel = new UsuarioModel()
   confirmarSenha: string
   tipoUser: string
 

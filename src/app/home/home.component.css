@@ -1,0 +1,13 @@
+.break-words {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.efeito-hover:hover {
+  transform: translateY(-9px);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}

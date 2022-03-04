@@ -11,7 +11,7 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class ThemeEditComponent implements OnInit {
 
-  theme: TemaModel = new TemaModel
+  theme: TemaModel = new TemaModel()
   constructor(private themeService: ThemeService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(){
